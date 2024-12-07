@@ -1,0 +1,238 @@
+[
+  {
+    "id": 1,
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "nutrition": {
+      "calories": 720,
+      "totalFat": "45g",
+      "protein": "40g",
+      "carbohydrate": "35g",
+      "cholesterol": "120mg"
+    },
+    "cookTime": "25 minutes",
+    "img": "https://i.ibb.co.com/Cwchg8F/image-26.png",
+    "categories": ["Burger", "Beef"],
+    "ingredients": [
+      "2 wagyu beef patties",
+      "2 burger buns",
+      "2 slices cheddar cheese",
+      "1/2 cup lettuce",
+      "2 slices tomato",
+      "1/4 cup sliced onions",
+      "Ketchup and mustard"
+    ],
+    "directions": [
+      "Grill the wagyu beef patties until medium-rare.",
+      "Toast the burger buns lightly.",
+      "Assemble the burger with lettuce, tomato, onions, cheese, and beef patty.",
+      "Add ketchup and mustard as desired.",
+      "Serve hot with fries or salad."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+    "nutrition": {
+      "calories": 320,
+      "totalFat": "15g",
+      "protein": "30g",
+      "carbohydrate": "8g",
+      "cholesterol": "80mg"
+    },
+    "cookTime": "20 minutes",
+    "img": "https://i.ibb.co.com/2gpt6N6/image-26-1.png",
+    "categories": ["Seafood", "Healthy"],
+    "ingredients": [
+      "2 salmon fillets",
+      "1 tbsp olive oil",
+      "1 tsp lime juice",
+      "1 tsp grated ginger",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Preheat oven to 200°C (400°F).",
+      "Place salmon on a baking sheet and brush with olive oil.",
+      "Season with lime juice, grated ginger, salt, and pepper.",
+      "Roast for 12-15 minutes or until salmon is flaky.",
+      "Serve with steamed vegetables or rice."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Strawberry Oatmeal Pancake with Honey Syrup",
+    "nutrition": {
+      "calories": 280,
+      "totalFat": "8g",
+      "protein": "7g",
+      "carbohydrate": "45g",
+      "cholesterol": "30mg"
+    },
+    "cookTime": "15 minutes",
+    "img": "https://i.ibb.co.com/PCgCKjK/image-26-2.png",
+    "categories": ["Breakfast", "Dessert"],
+    "ingredients": [
+      "1 cup oatmeal",
+      "1/2 cup chopped strawberries",
+      "1 egg",
+      "1/2 cup milk",
+      "1 tbsp honey",
+      "1 tsp baking powder",
+      "Butter for frying"
+    ],
+    "directions": [
+      "Mix oatmeal, baking powder, egg, and milk into a batter.",
+      "Fold in the chopped strawberries.",
+      "Heat a pan with butter and pour batter to form pancakes.",
+      "Cook until bubbles form, then flip and cook the other side.",
+      "Serve with honey syrup drizzled on top."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+    "nutrition": {
+      "calories": 200,
+      "totalFat": "12g",
+      "protein": "5g",
+      "carbohydrate": "18g",
+      "cholesterol": "15mg"
+    },
+    "cookTime": "10 minutes",
+    "img": "https://i.ibb.co.com/7N8m2yx/image-26-3.png",
+    "categories": ["Salad", "Healthy"],
+    "ingredients": [
+      "2 cups mixed greens",
+      "1/2 cup cherry tomatoes",
+      "1/4 cup sliced cucumbers",
+      "1/4 cup shredded carrots",
+      "2 tbsp mayonnaise",
+      "1 tbsp lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Combine all the vegetables in a large bowl.",
+      "Mix mayonnaise and lemon juice to form the dressing.",
+      "Toss the salad with the dressing until evenly coated.",
+      "Season with salt and pepper and serve chilled."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Chicken Meatballs with Cream Cheese",
+    "nutrition": {
+      "calories": 350,
+      "totalFat": "20g",
+      "protein": "30g",
+      "carbohydrate": "10g",
+      "cholesterol": "90mg"
+    },
+    "cookTime": "25 minutes",
+    "img": "https://i.ibb.co.com/fCSz5zK/image-26-4.png",
+    "categories": ["Appetizer", "Chicken"],
+    "ingredients": [
+      "300g ground chicken",
+      "1/4 cup breadcrumbs",
+      "1 egg",
+      "50g cream cheese",
+      "2 tbsp chopped parsley",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Mix ground chicken, breadcrumbs, egg, and parsley in a bowl.",
+      "Season with salt and pepper.",
+      "Form into small meatballs and stuff each with cream cheese.",
+      "Fry in a skillet until golden brown and cooked through.",
+      "Serve with your favorite dipping sauce."
+    ]
+  },
+  { "id": 6, "img": "https://i.ibb.co.com/Np53DmH/Ads.png" },
+
+  {
+    "id": 7,
+    "title": "Fruity Pancake with Orange & Blueberry",
+    "nutrition": {
+      "calories": 260,
+      "totalFat": "7g",
+      "protein": "6g",
+      "carbohydrate": "40g",
+      "cholesterol": "25mg"
+    },
+    "cookTime": "20 minutes",
+    "img": "https://i.ibb.co.com/GsfmhwM/Mask-Group-1.png",
+    "categories": ["Breakfast", "Dessert"],
+    "ingredients": [
+      "1 cup pancake mix",
+      "1/2 cup orange juice",
+      "1/4 cup blueberries",
+      "1 egg",
+      "Butter for frying"
+    ],
+    "directions": [
+      "Prepare pancake batter with mix, orange juice, and egg.",
+      "Fold in blueberries gently.",
+      "Heat butter in a skillet and cook pancakes until golden.",
+      "Serve with extra blueberries and a drizzle of syrup."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "The Best Easy One Pot Chicken and Rice",
+    "nutrition": {
+      "calories": 400,
+      "totalFat": "15g",
+      "protein": "35g",
+      "carbohydrate": "40g",
+      "cholesterol": "85mg"
+    },
+    "cookTime": "30 minutes",
+    "img": "https://i.ibb.co.com/F0Jb4pm/Mask-Group-2.png",
+    "categories": ["Main Course", "Chicken"],
+    "ingredients": [
+      "2 chicken thighs",
+      "1 cup rice",
+      "2 cups chicken broth",
+      "1/2 cup chopped onions",
+      "1/2 cup peas",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Heat olive oil in a pot and brown chicken thighs.",
+      "Remove chicken and sauté onions until soft.",
+      "Add rice, chicken broth, and peas, and stir well.",
+      "Return chicken to the pot and simmer for 20 minutes.",
+      "Serve hot with fresh herbs if desired."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "nutrition": {
+      "calories": 550,
+      "totalFat": "25g",
+      "protein": "40g",
+      "carbohydrate": "45g",
+      "cholesterol": "110mg"
+    },
+    "cookTime": "25 minutes",
+    "img": "https://i.ibb.co.com/qjQLY0X/Mask-Group-3.png",
+    "categories": ["Pasta", "Chicken"],
+    "ingredients": [
+      "200g pasta",
+      "100g chicken breast",
+      "50g bacon",
+      "1 cup heavy cream",
+      "1/2 cup grated Parmesan",
+      "1 clove garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Cook pasta according to package instructions.",
+      "Fry bacon until crispy and set aside.",
+      "Sauté chicken with garlic until cooked through.",
+      "Add heavy cream and Parmesan, and simmer until thickened.",
+      "Mix in the pasta and top with crispy bacon.",
+      "Serve hot with extra Parmesan."
+    ]
+  }
+]
