@@ -1,20 +1,21 @@
-import KitchenImg from "../../assets/Image/portrait-happy-male-chef-dressed-uniform 1.png";
+import KitchenImg from "../../assets/Image/Group 880.png";
 export default function Kitchen() {
   return (
     <>
-      <div className="hero bg-base-200 min-h-screen">
+      <div className="hero  min-h-screen mt-10">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={KitchenImg} className="max-w-sm rounded-lg shadow-2xl" />
+          <img src={KitchenImg} className="rounded-lg" />
           <div>
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-4xl font-bold">
               Everyone Can Be a <br /> Chef in Their Own Kitchen
             </h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Discover the joy of cooking with simple, step-by-step recipes that
+              bring out the chef in you.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn bg-black hover:bg-white hover:text-black btn-primary">
+              Learn More
+            </button>
           </div>
         </div>
       </div>
