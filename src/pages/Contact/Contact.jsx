@@ -1,21 +1,23 @@
 import ContactImg from "../../assets/Image/Group 13936.png";
+import Footer from "../../components/Footer/Footer";
+import Subscribe from "../../components/Subscribe/Subscribe";
 
 export default function Contact() {
   return (
     <>
       <h1 className="text-5xl text-center mt-12">Contact Us</h1>
-      <div className="mt-8 flex flex-col lg:flex-row gap-6 items-center  px-6">
+      <div className="mt-8 flex flex-col lg:flex-row gap-6  items-center px-6">
         {/* Image Section */}
         <div className="flex-shrink-0">
           <img
             src={ContactImg}
             alt="Contact Us"
-            className="max-w-full rounded-md shadow-lg"
+            className="max-w-full rounded-md"
           />
         </div>
 
         {/* Form Section */}
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-lg ml-32">
+        <form className="grid grid-cols-1 md:grid-cols-2 gap-2 ml-40 w-full max-w-lg">
           {/* First Name */}
           <div>
             <label className="block mb-1 ml-2" htmlFor="firstName">
@@ -45,7 +47,7 @@ export default function Contact() {
           </div>
 
           {/* Email */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="col-span-2">
             <label className="block mb-1 ml-2" htmlFor="email">
               Email Address
             </label>
@@ -59,7 +61,7 @@ export default function Contact() {
           </div>
 
           {/* Subject */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="col-span-2">
             <label className="block mb-1 ml-2" htmlFor="subject">
               Subject
             </label>
@@ -70,7 +72,9 @@ export default function Contact() {
               className="border border-gray-600 px-4 py-2 rounded w-full"
             />
           </div>
-          <div className="mb-4">
+
+          {/* Message */}
+          <div className="col-span-2">
             <label
               htmlFor="message"
               className="block text-sm font-medium text-gray-700"
@@ -79,24 +83,27 @@ export default function Contact() {
             </label>
             <textarea
               id="message"
-              rows="10"
-              cols="65"
-              className="p-3 border border-gray-300 rounded-md mt-1 focus:outline-none focus:ring-2 focus:ring-gray-600"
+              rows="5"
+              className="p-3 border border-gray-300 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-gray-600"
               placeholder="Type your message here..."
             ></textarea>
           </div>
 
           {/* Submit Button */}
-          <div className="col-span-1 md:col-span-2 mt-4">
+          <div className="col-span-2">
             <button
               type="submit"
-              className=" bg-black text-white py-2 rounded px-6"
+              className="w-full bg-black text-white py-2 rounded"
             >
               Submit
             </button>
           </div>
         </form>
       </div>
+
+      <Subscribe />
+
+      <Footer />
     </>
   );
 }

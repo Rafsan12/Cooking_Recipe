@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "title": "Crochet Projects for Noodle Lovers",
+    "img": "https://i.ibb.co.com/j5h3J3m/Mask-Group.png",
+    "subtitle": [
+      "1. Why Crochet is Perfect for Food-Inspired Projects",
+      "2. Top Noodle Crochet Patterns You Must Try",
+      "3. Tips for Customizing Your Crochet Noodles",
+      "4. Sharing Your Crochet Creations with the Community"
+    ],
+    "content": [
+      {
+        "title": "1. Why Crochet is Perfect for Food-Inspired Projects",
+        "details": "Crochet provides a unique way to bring your favorite foods to life in a fun and creative manner..."
+      },
+      {
+        "title": "2. Top Noodle Crochet Patterns You Must Try",
+        "details": "Explore a variety of crochet patterns inspired by noodles..."
+      },
+      {
+        "title": "3. Tips for Customizing Your Crochet Noodles",
+        "details": "Personalizing your crochet noodles is easy..."
+      },
+      {
+        "title": "4. Sharing Your Crochet Creations with the Community",
+        "details": "Once you’ve finished your noodle-inspired crochet, share your creations online..."
+      }
+    ],
+    "author": "Creative Threads",
+    "posted_date": "2024-12-08",
+    "reading_time": "5 minutes",
+    "hashtag": ["#CrochetLovers", "#NoodleArt", "#CreativeCrochet"]
+  },
+  {
+    "id": 2,
+    "title": "10 Vegetarian Recipes To Eat This Month",
+    "img": "https://i.ibb.co.com/JCwHQTK/image-26.png",
+    "subtitle": [
+      "1. Seasonal Flavors in Vegetarian Cuisine",
+      "2. Quick and Easy Weeknight Recipes",
+      "3. Crowd-Pleasing Dishes for Every Occasion",
+      "4. Health Benefits of a Plant-Based Diet"
+    ],
+    "content": [
+      {
+        "title": "1. Seasonal Flavors in Vegetarian Cuisine",
+        "details": "Celebrate the flavors of the season with fresh produce like squash, kale, and apples..."
+      },
+      {
+        "title": "2. Quick and Easy Weeknight Recipes",
+        "details": "Simplify your weeknights with quick vegetarian recipes like stir-fries..."
+      },
+      {
+        "title": "3. Crowd-Pleasing Dishes for Every Occasion",
+        "details": "Host a vegetarian dinner party with recipes that cater to all palates..."
+      },
+      {
+        "title": "4. Health Benefits of a Plant-Based Diet",
+        "details": "Vegetarian meals are packed with nutrients, including fiber, vitamins, and antioxidants..."
+      }
+    ],
+    "author": "Green Plate",
+    "posted_date": "2024-12-08",
+    "reading_time": "7 minutes",
+    "hashtag": ["#VegetarianRecipes", "#HealthyEating", "#PlantBased"]
+  },
+  {
+    "id": 3,
+    "title": "Simple & Delicious Vegetarian Lasagna",
+    "img": "https://i.ibb.co.com/26MFW45/Mask-Group-2.png",
+    "subtitle": [
+      "1. Ingredients You’ll Need",
+      "2. Step-by-Step Cooking Instructions",
+      "3. Tips for Perfecting Your Lasagna Layers",
+      "4. Serving and Storing Your Lasagna"
+    ],
+    "content": [
+      {
+        "title": "1. Ingredients You’ll Need",
+        "details": "Gather essential ingredients like lasagna noodles, ricotta cheese..."
+      },
+      {
+        "title": "2. Step-by-Step Cooking Instructions",
+        "details": "Start by boiling the noodles, then layer them with ricotta, spinach, and marinara sauce..."
+      },
+      {
+        "title": "3. Tips for Perfecting Your Lasagna Layers",
+        "details": "For even cooking, ensure each layer is consistent..."
+      },
+      {
+        "title": "4. Serving and Storing Your Lasagna",
+        "details": "Allow the lasagna to rest for 10 minutes before slicing..."
+      }
+    ],
+    "author": "Pasta Paradise",
+    "posted_date": "2024-12-08",
+    "reading_time": "6 minutes",
+    "hashtag": ["#VegetarianLasagna", "#ComfortFood", "#PastaLove"]
+  },
+  {
+    "id": 4,
+    "title": "Plantain and Pinto Stew with Aji Verde",
+    "img": "https://i.ibb.co.com/F8DbXDr/Mask-Group-3.png",
+    "subtitle": [
+      "1. The Inspiration Behind This Dish",
+      "2. Preparing the Plantain and Pinto Stew",
+      "3. Crafting the Perfect Aji Verde Sauce",
+      "4. How to Serve and Enjoy"
+    ],
+    "content": [
+      {
+        "title": "1. The Inspiration Behind This Dish",
+        "details": "This stew draws from Latin American flavors, combining the sweetness of plantains..."
+      },
+      {
+        "title": "2. Preparing the Plantain and Pinto Stew",
+        "details": "Start by sautéing onions, garlic, and spices, then add diced plantains..."
+      },
+      {
+        "title": "3. Crafting the Perfect Aji Verde Sauce",
+        "details": "Blend fresh cilantro, jalapeños, lime juice, garlic, and creamy avocado..."
+      },
+      {
+        "title": "4. How to Serve and Enjoy",
+        "details": "Serve the stew hot with a side of rice or crusty bread..."
+      }
+    ],
+    "author": "Latin Flavors",
+    "posted_date": "2024-12-08",
+    "reading_time": "8 minutes",
+    "hashtag": ["#PlantainStew", "#AjiVerde", "#ComfortFood"]
+  },
+  {
+    "id": 5,
+    "title": "We’re Hiring a Communications Assistant!",
+    "img": "https://i.ibb.co.com/54QwjdY/Mask-Group-4.png",
+    "subtitle": [
+      "1. About the Role",
+      "2. Key Responsibilities",
+      "3. Qualifications We’re Looking For",
+      "4. How to Apply"
+    ],
+    "content": [
+      {
+        "title": "1. About the Role",
+        "details": "Our team is growing, and we’re looking for a dynamic Communications Assistant..."
+      },
+      {
+        "title": "2. Key Responsibilities",
+        "details": "The Communications Assistant will manage social media accounts..."
+      },
+      {
+        "title": "3. Qualifications We’re Looking For",
+        "details": "We’re seeking candidates with strong writing skills, creativity..."
+      },
+      {
+        "title": "4. How to Apply",
+        "details": "Interested candidates should submit their resume and a cover letter..."
+      }
+    ],
+    "author": "Team Updates",
+    "posted_date": "2024-12-08",
+    "reading_time": "4 minutes",
+    "hashtag": ["#JobOpening", "#CommunicationsAssistant", "#JoinOurTeam"]
+  },
+  {
+    "id": 6,
+    "title": "Full Guide to Becoming a Professional Chef",
+    "img": "https://i.ibb.co.com/3BBXqGW/Mask-Group-1.png",
+    "subtitle": [
+      "1. How did you start out in the food industry?",
+      "2. What do you like most about your job?",
+      "3. Do you cook at home on your days off?",
+      "4. What would your advice be to young people looking to get their foot in the door?",
+      "5. What is the biggest misconception that people have about being a professional chef?"
+    ],
+    "content": [
+      {
+        "title": "1. How did you start out in the food industry?",
+        "details": "The food industry is a haven for individuals driven by a deep passion for culinary art..."
+      }
+    ],
+    "quotes": [
+      "Cooking is an art, but all art requires knowing something about the techniques and materials.",
+      "A recipe has no soul. You, as the cook, must bring soul to the recipe."
+    ],
+    "author": "Culinary Insights",
+    "posted_date": "2024-12-07",
+    "reading_time": "10 minutes",
+    "hashtag": ["#ProfessionalChef", "#CulinaryGuide", "#ChefJourney"]
+  }
+]

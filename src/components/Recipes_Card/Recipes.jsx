@@ -2,12 +2,11 @@ import { useEffect, useState } from "react";
 import Recipe from "./Recipe";
 
 export default function Recipes() {
-  const [recipesData, setRecipesData] = useState([]); // Initialize as an array
-
+  const [recipesData, setRecipesData] = useState([]);
   useEffect(() => {
     const fetchRecipesData = async () => {
       try {
-        const res = await fetch("data.json"); // Ensure 'data.json' is in the public folder
+        const res = await fetch("data.json");
         const result = await res.json();
         setRecipesData(result);
       } catch (error) {
