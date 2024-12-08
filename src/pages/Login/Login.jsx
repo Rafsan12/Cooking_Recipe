@@ -3,7 +3,6 @@ import { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context";
-import { auth } from "../../firebase.init";
 
 export default function Login() {
   const { loginUserWithEmailAndPassword, CreateUserWithGoogle } =
@@ -20,7 +19,8 @@ export default function Login() {
   const handleLogin = async (data) => {
     const { email, password } = data;
     try {
-      await loginUserWithEmailAndPassword(auth, email, password);
+      await loginUserWithEmailAndPassword(email, password);
+
       navigate("/");
     } catch (error) {
       console.error(error);
@@ -30,7 +30,7 @@ export default function Login() {
 
   const handleGoogleLogin = async () => {
     try {
-      await CreateUserWithGoogle(auth, provider);
+      await CreateUserWithGoogle(provider);
 
       navigate("/");
     } catch (error) {
