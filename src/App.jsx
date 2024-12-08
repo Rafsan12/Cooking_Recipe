@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import RecipeDetails from "./components/Recipes_Card/RecipeDetails";
 import Layout from "./Layout";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/recipe/:id" element={<RecipeDetails />} />
       </Routes>
+      <Footer />
     </>
   );
 }

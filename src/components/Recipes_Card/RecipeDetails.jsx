@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Subscribe from "../Subscribe/Subscribe";
 
 export default function RecipeDetails() {
   const { id } = useParams();
@@ -29,6 +30,8 @@ export default function RecipeDetails() {
         <div className="md:col-span-3">
           <img className="ml-20 w-3/4 h-3/4" src={recipe?.img} alt="" />
         </div>
+
+        {/* Nutrition Information */}
         <div className="bg-[#E7FAFE] p-6 rounded-md min-h-full">
           <h1 className="text-2xl font-medium mb-4">Nutrition Information</h1>
 
@@ -62,19 +65,38 @@ export default function RecipeDetails() {
           </div>
           <div className="border border-gray-300 w-full"></div>
         </div>
+
+        {/* Ingredients & Directions */}
       </div>
-      <div>
-        <h1 className="ml-24 text-2xl font-medium ">Ingredients</h1>
-        {recipe?.ingredients.map((ingredient, i) => (
-          <>
-            <div className="flex items-center gap-2 mb-2 mt-4 ml-6" key={i}>
-              <input type="checkbox" className="checkbox checkbox-xs" />
-              <p>{ingredient}</p>
-            </div>
-            <div className="border border-gray-300 w-96 rounded-full"></div>
-          </>
-        ))}
+      <div className="flex gap-14">
+        <div>
+          <h1 className="ml-24 text-2xl font-medium ">Ingredients</h1>
+          {recipe?.ingredients.map((ingredient, i) => (
+            <>
+              <div className="flex items-center gap-2 mb-2 mt-4 ml-6" key={i}>
+                <input type="checkbox" className="checkbox checkbox-xs" />
+                <p>{ingredient}</p>
+              </div>
+              <div className="border border-gray-300 w-96 rounded-full"></div>
+            </>
+          ))}
+        </div>
+        <div>
+          <h1 className="ml-24 text-2xl font-medium ">Directions</h1>
+          {recipe?.directions.map((direction, i) => (
+            <>
+              <div className="flex items-center gap-2 mb-2 mt-4 ml-6" key={i}>
+                <ul>
+                  <li>{direction}</li>
+                </ul>
+              </div>
+              <div className="border border-gray-300 w-96 rounded-full"></div>
+            </>
+          ))}
+        </div>
       </div>
+
+      <Subscribe />
     </>
   );
 }
