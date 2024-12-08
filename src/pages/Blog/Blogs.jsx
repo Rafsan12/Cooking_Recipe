@@ -39,7 +39,7 @@ export default function Blogs() {
           />
         </div>
       </div>
-      <div className="">
+      <div className="mt-10">
         {blogs.map((blog) => (
           <Blog key={blog.id} blog={blog} />
         ))}

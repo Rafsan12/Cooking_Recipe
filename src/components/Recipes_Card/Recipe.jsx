@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Time from "../../assets/Icon/Vector.png";
 
 export default function Recipe({ recipe }) {
@@ -57,7 +58,10 @@ export default function Recipe({ recipe }) {
       {/* Conditionally render the card body if other details are available */}
       {(title || cookTime || (categories && categories.length > 0)) && (
         <div className="card-body">
-          <h2 className="card-title">{title ?? "Untitled Recipe"}</h2>
+          <Link to={`/recipe/${id}`}>
+            {" "}
+            <h2 className="card-title">{title ?? "Untitled Recipe"}</h2>
+          </Link>
           <p>A delightful recipe to make your day special.</p>
           <div className="card-actions">
             {/* Cook Time Section */}

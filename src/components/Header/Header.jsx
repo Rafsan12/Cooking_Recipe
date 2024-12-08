@@ -6,9 +6,7 @@ export default function Header() {
       <li>
         <NavLink to="/">Home</NavLink>
       </li>
-      <li>
-        <NavLink to="/">Recipes</NavLink>
-      </li>
+
       <li>
         <NavLink to="/blog">Blog</NavLink>
       </li>

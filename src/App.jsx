@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
+import RecipeDetails from "./components/Recipes_Card/RecipeDetails";
 import Layout from "./Layout";
 import Blogs from "./pages/Blog/Blogs";
 import Contact from "./pages/Contact/Contact";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/blog" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/recipe/:id" element={<RecipeDetails />} />
       </Routes>
     </>
   );
