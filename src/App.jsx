@@ -7,6 +7,7 @@ import Blogs from "./pages/Blog/Blogs";
 import Contact from "./pages/Contact/Contact";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
+import PrivateRoute from "./PrivateRoute";
 
 function App() {
   return (
@@ -17,9 +18,23 @@ function App() {
         <Route path="" element={<Layout />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/blog" element={<Blogs />} />
+        <Route
+          path="/blog"
+          element={
+            <PrivateRoute>
+              <Blogs />
+            </PrivateRoute>
+          }
+        />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/recipe/:id" element={<RecipeDetails />} />
+        <Route
+          path="/recipe/:id"
+          element={
+            <PrivateRoute>
+              <RecipeDetails />
+            </PrivateRoute>
+          }
+        />
       </Routes>
       <Footer />
     </>

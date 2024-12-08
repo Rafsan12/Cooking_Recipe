@@ -13,44 +13,56 @@ import { auth } from "../firebase.init";
 export default function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   const createUserEmailAndPassword = async (email, password) => {
     try {
+      setLoading(true);
       return await createUserWithEmailAndPassword(auth, email, password);
     } catch (error) {
       setError(error.message);
       console.error("Error in createUserEmailAndPassword:", error);
       throw error;
+    } finally {
+      setLoading(false);
     }
   };
 
   const CreateUserWithGoogle = async (provider) => {
     try {
+      setLoading(true);
       return await signInWithPopup(auth, provider);
     } catch (error) {
       setError(error.message);
       console.error("Error in CreateUserWithGoogle:", error);
       throw error;
+    } finally {
+      setLoading(false);
     }
   };
 
   const loginUserWithEmailAndPassword = async (email, password) => {
     try {
+      setLoading(true);
       return await signInWithEmailAndPassword(auth, email, password);
     } catch (error) {
       setError(error.message);
       console.error("Error in loginUserWithEmailAndPassword:", error);
       throw error;
+    } finally {
+      setLoading(false);
     }
   };
 
   const logOut = () => {
+    setLoading(true);
     return signOut(auth);
   };
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser || null);
+      setLoading(false);
       console.log("from useEffect:", currentUser);
     });
 
@@ -59,6 +71,7 @@ export default function AuthProvider({ children }) {
 
   const authInfo = {
     user,
+    loading,
     error,
     createUserEmailAndPassword,
     CreateUserWithGoogle,
