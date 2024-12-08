@@ -13,7 +13,6 @@ export default function Layout() {
       <Recipes />
       <Kitchen />
       <Subscribe />
-
       <Outlet />
     </>
   );

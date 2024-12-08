@@ -13,14 +13,12 @@ export default function Header() {
       <li>
         <NavLink to="/contact">Contact</NavLink>
       </li>
-      <li>
-        <NavLink to="/">About us</NavLink>
-      </li>
+
       <li>
         <NavLink to="/login">Login</NavLink>
       </li>
       <li>
-        <NavLink to="/">Register</NavLink>
+        <NavLink to="/register">Register</NavLink>
       </li>
     </>
   );

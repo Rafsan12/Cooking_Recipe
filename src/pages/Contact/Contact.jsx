@@ -1,5 +1,4 @@
 import ContactImg from "../../assets/Image/Group 13936.png";
-import Footer from "../../components/Footer/Footer";
 import Subscribe from "../../components/Subscribe/Subscribe";
 
 export default function Contact() {
@@ -102,8 +101,6 @@ export default function Contact() {
       </div>
 
       <Subscribe />
-
-      <Footer />
     </>
   );
 }
