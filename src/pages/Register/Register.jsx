@@ -31,7 +31,7 @@ export default function Register() {
 
   const handleGoogleLogin = async () => {
     try {
-      await CreateUserWithGoogle(auth, googleProvider);
+      await CreateUserWithGoogle(googleProvider);
       navigate("/");
     } catch (error) {
       console.error(error);
