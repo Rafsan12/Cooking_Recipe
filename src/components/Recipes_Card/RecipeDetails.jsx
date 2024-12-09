@@ -68,7 +68,7 @@ export default function RecipeDetails() {
 
         {/* Ingredients & Directions */}
       </div>
-      <div className="flex gap-14">
+      <div className="flex flex-col gap-14 sm:flex-row mt-10">
         <div>
           <h1 className="ml-24 text-2xl font-medium ">Ingredients</h1>
           {recipe?.ingredients.map((ingredient, i) => (

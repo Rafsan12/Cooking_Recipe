@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Footer from "../../components/Footer/Footer";
 import Subscribe from "../../components/Subscribe/Subscribe";
 import Blog from "./Blog";
 
@@ -45,7 +44,6 @@ export default function Blogs() {
         ))}
       </div>
       <Subscribe />
-      <Footer />
     </>
   );
 }
