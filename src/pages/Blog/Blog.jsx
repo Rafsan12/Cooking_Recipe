@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
 export default function Blog({ blog }) {
-  const { img, title, author, posted_date, content } = blog;
+  const { id, img, title, author, posted_date, content } = blog;
 
   const previewDetails =
     content?.[0]?.details?.length > 200
@@ -23,7 +23,7 @@ export default function Blog({ blog }) {
         <h2 className="text-2xl font-semibold text-gray-800">{title}</h2>
         <p className="text-lg text-gray-600 mt-2">
           {previewDetails}
-          <Link to="/">See More</Link>
+          <Link to={`/blog/${id}`}>See More</Link>
         </p>
 
         <div className="mt-4 text-sm text-gray-500 flex gap-4">

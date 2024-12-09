@@ -23,8 +23,6 @@ export default function AuthProvider({ children }) {
       setError(error.message);
       console.error("Error in createUserEmailAndPassword:", error);
       throw error;
-    } finally {
-      setLoading(false);
     }
   };
 
@@ -36,8 +34,6 @@ export default function AuthProvider({ children }) {
       setError(error.message);
       console.error("Error in CreateUserWithGoogle:", error);
       throw error;
-    } finally {
-      setLoading(false);
     }
   };
 
@@ -49,8 +45,6 @@ export default function AuthProvider({ children }) {
       setError(error.message);
       console.error("Error in loginUserWithEmailAndPassword:", error);
       throw error;
-    } finally {
-      setLoading(false);
     }
   };
 

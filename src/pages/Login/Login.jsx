@@ -1,12 +1,14 @@
 import { GoogleAuthProvider } from "firebase/auth";
 import { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context";
 
 export default function Login() {
   const { loginUserWithEmailAndPassword, CreateUserWithGoogle } =
     useContext(AuthContext);
+  const location = useLocation();
+
   const provider = new GoogleAuthProvider();
   const {
     register,
@@ -21,7 +23,7 @@ export default function Login() {
     try {
       await loginUserWithEmailAndPassword(email, password);
 
-      navigate("/");
+      navigate(location?.state ?? "/");
     } catch (error) {
       console.error(error);
       setError(error.message);
@@ -31,8 +33,7 @@ export default function Login() {
   const handleGoogleLogin = async () => {
     try {
       await CreateUserWithGoogle(provider);
-
-      navigate("/");
+      navigate(location?.state ?? "/");
     } catch (error) {
       console.error(error);
       setError(error.message);
