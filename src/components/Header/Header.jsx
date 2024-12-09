@@ -22,6 +22,15 @@ export default function Header() {
       <li>
         <NavLink to="/contact">Contact</NavLink>
       </li>
+      {user ? (
+        <>
+          <button onClick={handleLogout}>Logout</button>
+        </>
+      ) : (
+        <NavLink className="mt-2" to="/login">
+          Login
+        </NavLink>
+      )}
     </>
   );
 
@@ -65,21 +74,7 @@ export default function Header() {
 
       {/* User Info and Login/Logout */}
       <div className="navbar-end">
-        {user ? (
-          <>
-            <button
-              onClick={handleLogout}
-              className="mr-2 border border-gray-500 px-2 bg-primary"
-            >
-              Logout
-            </button>
-            <p className="mr-4">{user.displayName}</p>
-          </>
-        ) : (
-          <NavLink to="/login" className="btn btn-primary">
-            Login
-          </NavLink>
-        )}
+        <p className="mr-4">{user?.displayName}</p>
         <div
           tabIndex={0}
           role="button"
